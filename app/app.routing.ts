@@ -1,11 +1,11 @@
 import { Routes,RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 
-import { StockInComponent } from './stockin.component';
-import { StockOutComponent } from './stockout.component';
-import { ReportsComponent } from './reports.component';
-import { HomeComponent } from './home.component';
-import { AdminComponent } from './admin.component';
+import { StockInComponent } from './stockin/stockin.component';
+import { StockOutComponent } from './stockout/stockout.component';
+import { ReportsComponent } from './reports/reports.component';
+import { HomeComponent } from './home/home.component';
+import { AdminComponent } from './admin/admin.component';
 const appRoutes: Routes=[
     { path:'stockin', component:StockInComponent },
     { path:'stockout',component:StockOutComponent },
